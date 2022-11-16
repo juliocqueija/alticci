@@ -52,7 +52,9 @@ jacocoTestReport {
 			fileTree(
 					dir: it,
 					excludes: [
-							"com/alticci/exception/**"
+							"com/alticci/AlticciApplication.class",
+							"com/alticci/exception/**",
+							"com/alticci/controller/dto/response/**"
 					]
 			)
 		}))
